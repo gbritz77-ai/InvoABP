@@ -7,7 +7,7 @@ Configure connection in:
 aspnet-core/src/InvoABP.HttpApi/appsettings.json
 Example:
 "ConnectionStrings": {
-  "Default": "Server=localhost;Port=5432;Database=invoabp;User Id=admin1;Password=yourpw;"
+  "Default": "Server=localhost;Port=5432;Database=invoabp;User Id=admin1;Password=Password@123;"
 }
 
 Run Database Migrator
@@ -36,7 +36,7 @@ POST https://localhost:44366/api/account/login
 Example body:
 {
   "userNameOrEmailAddress": "admin1",
-  "password": "Password123"
+  "password": "Password@123"
 }
 Successful response returns:
 {
