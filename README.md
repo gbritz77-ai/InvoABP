@@ -26,8 +26,8 @@ Seeded Login Accounts
 After migration completes:
 
 Role	 Username	 Password
-Admin	 admin1	   Password123
-Staff	 staff1	   Password123
+Admin	 admin1	   Password@123
+Staff	 staff1	   Password@123
 
 Login endpoint:
 POST https://localhost:44366/api/account/login
@@ -85,16 +85,3 @@ npx ng serve --open
 Angular UI runs at:
 http://localhost:4200/
 
-Known UI Startup Warnings (Safe to Ignore)
-During build you may see:
-Workspace extension with invalid name (defaultProject)
-Schema validation: outputPath missing
-Vulnerabilities
-Deprecated peer dependencies
-
-
-
-
-or:
-
-> `generate CI/CD`
