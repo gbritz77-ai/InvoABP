@@ -1,0 +1,35 @@
+<Solution>
+  <Folder Name="/aspnet-core/" />
+  <Folder Name="/aspnet-core/src/">
+    <Project Path="src/InvoABP.Application.Contracts/InvoABP.Application.Contracts.csproj" />
+    <Project Path="src/InvoABP.Application/InvoABP.Application.csproj" />
+    <Project Path="src/InvoABP.DbMigrator/InvoABP.DbMigrator.csproj" />
+    <Project Path="src/InvoABP.Domain.Shared/InvoABP.Domain.Shared.csproj" />
+    <Project Path="src/InvoABP.Domain/InvoABP.Domain.csproj" />
+    <Project Path="src/InvoABP.EntityFrameworkCore/InvoABP.EntityFrameworkCore.csproj" />
+    <Project Path="src/InvoABP.HttpApi.Client/InvoABP.HttpApi.Client.csproj" />
+    <Project Path="src/InvoABP.HttpApi.Host/InvoABP.HttpApi.Host.csproj" />
+  </Folder>
+  <Folder Name="/test/" />
+  <Project Path="../angular/" Type="Website" DisplayName="angular">
+    <BuildType Project="Debug" />
+    <Properties Name="WebsiteProperties">
+      <Property Name="Debug.AspNetCompiler.Debug" Value="&quot;True&quot;" />
+      <Property Name="Debug.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
+      <Property Name="Debug.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
+      <Property Name="Debug.AspNetCompiler.PhysicalPath" Value="&quot;..\angular\&quot;" />
+      <Property Name="Debug.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_54792\&quot;" />
+      <Property Name="Debug.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
+      <Property Name="Debug.AspNetCompiler.VirtualPath" Value="&quot;/localhost_54792&quot;" />
+      <Property Name="Release.AspNetCompiler.Debug" Value="&quot;False&quot;" />
+      <Property Name="Release.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
+      <Property Name="Release.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
+      <Property Name="Release.AspNetCompiler.PhysicalPath" Value="&quot;..\angular\&quot;" />
+      <Property Name="Release.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_54792\&quot;" />
+      <Property Name="Release.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
+      <Property Name="Release.AspNetCompiler.VirtualPath" Value="&quot;/localhost_54792&quot;" />
+      <Property Name="TargetFrameworkMoniker" Value="&quot;.NETFramework,Version%3Dv4.8&quot;" />
+      <Property Name="VWDPort" Value="&quot;54792&quot;" />
+    </Properties>
+  </Project>
+</Solution>

@@ -1,0 +1,24 @@
+# .NET build artifacts
+bin/
+obj/
+
+# Angular
+angular/node_modules/
+.angular/
+dist/
+public/
+
+# IDE
+.vscode/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# System
+Thumbs.db
+.DS_Store
+
+# Runtime
+.env
