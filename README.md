@@ -85,3 +85,7 @@ npx ng serve --open
 Angular UI runs at:
 http://localhost:4200/
 
+NOTE:
+Backend API's and Swagger is completed 
+Frontend development is still in progress and will be updated as development grogresses.
+
